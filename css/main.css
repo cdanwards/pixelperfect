@@ -1,0 +1,71 @@
+*, *::before, *::after {
+  box-sizing: border-top;
+}
+
+
+
+.header-container {
+  height: 522px;
+/*   min-width: 1300px; */
+  background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("../images/header-background.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.header-logo {
+  height: 53px;
+
+}
+
+.header-logo-top {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.header-logo-left {
+  max-width: 50%
+}
+
+.header-logo-top .header-logo-top-logoimage, .header-logo-top .header-logo-top-logotext {
+  height: 53px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.header-logo-top-logotext {
+  text-align: center;
+  font-family: "Open-sans", sans-serif;
+  font-weight: 300;
+  vertical-align: middle;
+}
+
+.header-logo-right .header-logo-right-about, .header-logo-right .header-logo-right-search, .header-logo-right .header-logo-right-image {
+/*   height: 53px; */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-logo-right {
+  overflow: auto;
+  text-align: right;
+  max-width: 50%;
+}
+
+.header-logo-right-image {
+  float: right;
+}
+
+
+#center-logo {
+  font-family: "Open-sans", sans-serif;
+  color: white;
+  font-size: 90px;
+  font-weight: 400;
+/*   margin: 0 auto; */
+  max-width: 920px;
+  vertical-align: middle;
+  padding-top: 163px;
+  text-align: center;
+}
