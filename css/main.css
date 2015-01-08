@@ -2,58 +2,80 @@
   box-sizing: border-top;
 }
 
+/*--------------- HEADER --------------------- */
 
-
-.header-container {
+header {
   height: 522px;
-/*   min-width: 1300px; */
   background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("../images/header-background.jpg");
   background-size: cover;
   background-position: center center;
-  position: relative;
+/*   position: relative; */
 }
 
 .header-logo {
   height: 53px;
-
 }
 
-.header-logo-top {
-  max-width: 920px;
+.header-nav {
+  max-width: 990px;
   margin: 0 auto;
+  position: relative;
 }
 
-.header-logo-left {
-  max-width: 50%
+.header-nav-left {
+  margin: 0;
+  height: 53px;
 }
 
-.header-logo-top .header-logo-top-logoimage, .header-logo-top .header-logo-top-logotext {
+.header-nav-logotext {
+  max-width: 192px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.header-nav-logotext p {
+  margin: 0 0;
+}
+
+
+
+.header-nav-left .header-nav-logoimage, .header-nav-top .header-nav-logotext {
   height: 53px;
   display: inline-block;
   vertical-align: middle;
 
 }
+.header-nav-logoimage {
+  float: left;
+  clear: left;
+}
 
-.header-logo-top-logotext {
-  text-align: center;
+
+.header-nav-logotext {
   font-family: "Open-sans", sans-serif;
   font-weight: 300;
   vertical-align: middle;
+  margin: 0;
+  max-width: 100%;
 }
 
-.header-logo-right .header-logo-right-about, .header-logo-right .header-logo-right-search, .header-logo-right .header-logo-right-image {
+.header-nav-right .header-nav-right-about, .header-nav-right .header-nav-right-search, .header-nav-right .header-nav-right-image {
 /*   height: 53px; */
   display: inline-block;
   vertical-align: middle;
+  margin: 0;
 }
 
-.header-logo-right {
+.header-nav-right {
   overflow: auto;
   text-align: right;
   max-width: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-.header-logo-right-image {
+.header-nav-right-image {
   float: right;
 }
 
@@ -63,9 +85,27 @@
   color: white;
   font-size: 90px;
   font-weight: 400;
-/*   margin: 0 auto; */
+  margin: 0 auto;
   max-width: 920px;
   vertical-align: middle;
   padding-top: 163px;
-  text-align: center;
 }
+
+.project {
+  font-family: "Open-sans", sans-serif;
+  font-weight: 400;
+  color: #083450;
+  margin: 0 auto;
+  max-width: 300px;
+  font-size: 90%;
+}
+
+/*----------------- Content ------------------*/
+
+
+
+#comments {
+  ;
+
+}
+/*----------------- Footer -------------------*/
